@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+	output: 'export',
 	reactStrictMode: true,
 	swcMinify: true,
 	images: {
@@ -12,7 +13,10 @@ const nextConfig = {
 			use: ["@svgr/webpack"]
 		});
 		return config;
-	}
+	},
+	images: {
+		unoptimized: true,
+	  },
 };
 
 module.exports = nextConfig;

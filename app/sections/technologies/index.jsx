@@ -49,7 +49,7 @@ export function TechnologiesSection() {
 									</h3>
 									<div className="block items-center flex-wrap gap-x-5 gap-y-8">
 										{tech.items.map((item) => (
-												<div>
+												<div key={item.index}>
 													{item.name}
 												</div>
 										))}

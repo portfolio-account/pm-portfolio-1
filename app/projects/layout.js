@@ -59,10 +59,6 @@ export default function Page() {
 
 	const onClick = (catName) => setCategory(catName);
 
-	if (error) {
-		return <div className="container-md">Error loading projects...</div>;
-	}
-
 	return (
 		<div className="container-md">
 			<section id="projects" className="section">

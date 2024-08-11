@@ -3,11 +3,9 @@
 	"version": "1.0.3",
 	"private": true,
 	"scripts": {
-		"dev": "next dev",
 		"build": "next build",
-		"start": "next start",
-		"lint": "next lint",
-		"format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+		"export": "next export",
+		"deploy": "npm run build && npm run export && touch out/.nojekyll && git add -f out && git commit -m 'Deploy to GitHub Pages' && git subtree push --prefix out origin gh-pages"
 	},
 	"dependencies": {
 		"framer-motion": "^8.5.5",
