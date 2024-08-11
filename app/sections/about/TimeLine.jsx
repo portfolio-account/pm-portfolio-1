@@ -4,12 +4,14 @@ import { useEffect, useRef, useState } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 
 const TimeLineData = [
-	{ year: 2023, text: "Start my journey as a Flutter developer" },
-	{ year: 2022, text: "Start my journey as a React developer" },
-	{ year: 2021, text: "Dive completely into React.js" },
-	{ year: 2018, text: "Work as a WordPress developer" },
-	{ year: 2017, text: "Start a 3mo WordPress internship" }
+	{ year: 2024, text: "Product management certification from ISB hyderabad" },
+	{ year: 2023, text: "Start my journey as Product Manager at Hyperspec.AI " },
+	{ year: 2020, text: "Start my journey as Sr Operations Manager at Hyperspec.AI " },
+	{ year: 2019, text: "Start my journey as Project Manager at Civil Maps" },
+	{ year: 2016, text: "Start my journey as Team Lead at Uber Technologies" },
+	{ year: 2015, text: "Start my journey as Team Lead at ADCC Infocad" }
 ];
+
 
 export function TimeLine() {
 	/// TODO: Add color mode support

@@ -4,9 +4,9 @@ export function Projects({ projects }) {
 	return (
 		<div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
 			{projects
-				?.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
+				?.sort((a, b) => b.index - a.index)
 				?.map((project, index) => (
-					<ProjectItem key={project._id} project={project} index={index} />
+					<ProjectItem key={project.index} project={project} index={index} />
 				))}
 		</div>
 	);

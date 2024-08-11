@@ -25,29 +25,9 @@ export function AboutSection() {
 						}}
 					>
 						<p>
-							My name is Vasile. I successfully graduated Technical University of Moldova, computer
-							science faculty.
-						</p>
-						<p>
-							During my university years, I developed a deep passion for web programming, and I
-							consistently engaged in learning new concepts and techniques in this field.
-						</p>
-						<p>So, officially, my programming journey began in 2017 as a WordPress developer.</p>
-						<p className="my-3.5">
-							I enjoy learning technologies that interest me, which is why I dedicated a significant
-							amount of time to working with WordPress.
-						</p>
-						<p>
-							One day, I decided to try something new, and I started learning React. I was so
-							excited to see how fast I can build a website with it, and how easy it is to maintain
-							it. Consequently, I quickly learnt Next.js and I used it to build some company
-							projects working in a team with a backend dev.
-						</p>
-						<p className="my-3.5">
-							In december 2023, I had an opportunity to start working as a React developer for a
-							company with the possibility of transitioning to mobile development. I was skeptical
-							about it at first, but I decided to give it a try, and I don&lsquo;t regret it. Now, I
-							thoroughly enjoy working with Flutter and Dart.
+						Saket Sonekar is a seasoned Product Manager with over 11 years of experience in product management, operations, and digital transformation. He has a strong background in launching innovative AI and vision products, with notable expertise in autonomous vehicle mapping and high-definition maps. At Civil Maps, Saket led the development and deployment of HD maps at scale and was instrumental in creating essential tools to enhance product functionality. His role involved managing the complete product lifecycle, from development to launch, and driving impactful results through cross-functional collaboration and data-driven strategies.
+As the first hire for Hyperspec AI in India, Saket established and scaled the operations team, significantly contributing to the company's growth and efficiency. His accomplishments include launching a hardware product and a software product, showcasing his ability to handle complex projects. Saket also holds a product management certification from ISB Hyderabad, further solidifying his expertise in the field. Passionate about leveraging technology to address complex business challenges, Saket is dedicated to driving innovation and achieving excellence in the digital landscape.
+
 						</p>
 					</div>
 				</div>

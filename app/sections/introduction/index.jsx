@@ -15,12 +15,14 @@ export function WelcomeSection() {
 	const isTabletUp = useMediaQuery("min-width: 768px");
 
 	let [count, setCount] = useState(0);
-	const [text] = useState([
-		"build Flutter apps for Android/iOS",
-		"convert design into modern UI",
-		"build interactive UI using React",
-		"develop websites using Next.js"
+	const [text] = useState([ 
+		"built operations teams in India for two companies.", 
+		"translate customer needs into strategic product features.",
+		"oversee the product lifecycle, from concept to launch.", 
+		"build autonomous vehicle mapping projects."
 	]);
+
+
 
 	const onClick = (e) => scrollToEl(e);
 
@@ -52,7 +54,7 @@ export function WelcomeSection() {
 							}}
 						>
 							<p>
-								Hi, I&apos;m <mark>Vasile</mark> a <mark>passionate</mark> software developer.
+								Hi, I&apos;m <mark>Saket</mark> a <mark>passionate</mark> tech product manager.
 							</p>
 						</h1>
 

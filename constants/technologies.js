@@ -16,44 +16,39 @@ import StyledIcon from "public/assets/svg/styledcomponents.svg";
 
 export const TECHNOLOGIES = [
 	{
-		category: "Mobile",
-		items: [{ name: "Flutter", icon: <RiFlutterFill size={32} /> }]
+		category: "Core Competencies",
+		items: [{ name: "Team Leadership" }],
+		items: [{ name: "Project Management" }],
+		items: [{ name: "Cross-functional Collaboration" }],
+		items: [{ name: "Strategic Planning" }],
+		items: [{ name: "Customer Focus" }],
 	},
 	{
-		category: "Front-end",
+		category: "Operational Excellence",
 		items: [
-			{ name: "HTML", icon: <AiFillHtml5 size={32} /> },
-			{ name: "CSS", icon: <DiCss3 size={32} /> },
-			{ name: "JS", icon: <IoLogoJavascript size={32} /> },
-			{ name: "React", icon: <FaReact size={32} /> },
-			{ name: "Next", icon: <TbBrandNextjs size={32} /> },
-			{ name: "Tailwind CSS", icon: <TbBrandTailwind size={32} /> },
-			{ name: "MUI", icon: <MuiIcon width={32} /> },
-			{ name: "AntD", icon: <AiOutlineAntDesign size={32} /> },
-			{ name: "Bootstrap", icon: <BsBootstrap size={32} /> },
-			{ name: "Chakra", icon: <ChakraIcon width={32} /> },
-			{ name: "styled components", icon: <StyledIcon width={32} /> },
-			{ name: "HeadlessUI", icon: <HeadlessUiIcon width={32} /> }
+			{ name: "Process Improvement" },
+			{ name: "Data Analysis" },
+			{ name: "Quality Assurance" },
+			{ name: "Vendor Management" },
+			{ name: "Product Lifecycle Management" }
 		]
 	},
 	{
-		category: "UI tools",
+		category: "Technical and Specialized Skills",
 		items: [
-			{ name: "Figma", icon: <FaFigma size={32} /> },
-			{ name: "Zeplin", icon: <ZeplinIcon width={36} /> },
-			{ name: "XD", icon: <AdobeXDIcon width={32} /> }
+			{ name: "Maps Development for Autonomous Vehicle and human" },
+			{ name: "Established Operations for Two Companies in India" }
 		]
 	},
 	{
-		category: "Other tools",
+		category: "Tools",
 		items: [
-			{ name: "WordPress CMS", icon: <FaWordpressSimple size={32} /> },
-			{ name: "Jira", icon: <JiraIcon width={32} /> },
-			{ name: "Trello", icon: <FaTrello size={32} /> },
-			{ name: "Github", icon: <AiFillGithub size={32} /> },
-			{ name: "Gitlab", icon: <AiFillGitlab size={32} /> },
-			{ name: "VsCode", icon: <DiVisualstudio size={32} /> },
-			{ name: "WebStorm", icon: <WebstormIcon width={32} /> }
+			{ name: "Jira" },
+			{ name: "Asana" },
+			{ name: "Aha!" },
+			{ name: "Mixpanel" },
+			{ name: "Tableau" },
+			{ name: "Monday.com" }
 		]
 	}
 ];
