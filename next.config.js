@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	output: 'export',
+	basePath: "/pm-portfolio-1",
 	reactStrictMode: true,
 	swcMinify: true,
 	images: {

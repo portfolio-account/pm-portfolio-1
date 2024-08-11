@@ -1,7 +1,7 @@
 import { Suspense, useRef } from "react";
 import { domAnimation, LazyMotion, useInView } from "framer-motion";
 import Link from "next/link";
-import useSWR from "swr";
+// import useSWR from "swr";
 import { HeadingDivider, Loader } from "components";
 import { fetcher } from "utils/fetcher";
 import Error from "../../error";

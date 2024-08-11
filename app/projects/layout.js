@@ -1,11 +1,11 @@
 "use client";
 
 import { Suspense, useState } from "react";
-import useSWR from "swr";
+// import useSWR from "swr";
 import { ErrorBoundary } from "react-error-boundary";
 import { HeadingDivider, Loader } from "components";
 import { Filter } from "./components/Filter";
-import { fetcher } from "utils/fetcher";
+// import { fetcher } from "utils/fetcher";
 import Error from "../error";
 import { Projects } from "./components/Projects";
 

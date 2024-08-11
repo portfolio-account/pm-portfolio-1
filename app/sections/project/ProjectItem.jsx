@@ -1,15 +1,15 @@
 import { Suspense, useRef } from "react";
 import { useInView } from "framer-motion";
-import Link from "next/link";
+// import Link from "next/link";
 import ImageGallery from "react-image-gallery";
 import { Loader } from "components";
-import { VscSourceControl } from "react-icons/vsc";
-import { FiExternalLink } from "react-icons/fi";
+// import { VscSourceControl } from "react-icons/vsc";
+// import { FiExternalLink } from "react-icons/fi";
 
 import "react-image-gallery/styles/css/image-gallery.css";
 
 export function ProjectItem({ project, index }) {
-	const { description, images, title } = project;
+	const { description, title } = project;
 	const cardRef = useRef(null);
 	const isInView = useInView(cardRef, { once: true });
 
