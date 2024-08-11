@@ -92,7 +92,7 @@ export function TimeLine() {
 								>
 									{`${item.year}`}
 									<svg
-										width="208"
+										width="100"
 										height="6"
 										viewBox="0 0 208 6"
 										xmlns="http://www.w3.org/2000/svg"
